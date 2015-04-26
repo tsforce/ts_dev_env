@@ -1,0 +1,2 @@
+
+Plugin 'Lokaltog/vim-easymotion'
