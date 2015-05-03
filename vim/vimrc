@@ -8,9 +8,17 @@ call vundle#begin("$TS_ENV_HOME/vim/bundle")
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+"Plugin 'gmarik/Vundle.vim'
 
 source $TS_ENV_HOME/vim/vimrcs/nerdtree.vimrc
+source $TS_ENV_HOME/vim/vimrcs/powerline.vimrc
+source $TS_ENV_HOME/vim/vimrcs/taglist.vimrc
+source $TS_ENV_HOME/vim/vimrcs/cscope.vimrc
+source $TS_ENV_HOME/vim/vimrcs/youcompleteme.vimrc
+source $TS_ENV_HOME/vim/vimrcs/easymotion.vimrc
+source $TS_ENV_HOME/vim/vimrcs/ctrlp.vimrc
+source $TS_ENV_HOME/vim/vimrcs/clang_format.vimrc
+source $TS_ENV_HOME/vim/vimrcs/listtoggle.vimrc
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
