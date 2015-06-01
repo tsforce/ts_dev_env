@@ -8,7 +8,7 @@ call vundle#begin("$TS_ENV_HOME/vim/bundle")
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+"Plugin 'gmarik/Vundle.vim'
 
 source $TS_ENV_HOME/vim/vimrcs/nerdtree.vimrc
 source $TS_ENV_HOME/vim/vimrcs/powerline.vimrc
