@@ -31,7 +31,7 @@ make
 * Restart Bash
 
 **NOTE:** After that, the two global environment variables already there:
-* FENV_HOME - All the bashrcs, git config and vim plugins here
+* TS_ENV_HOME - All the bashrcs, git config and vim plugins here
 * FENV_GIT - the place of this repository in your computer
 
 ## Step 3 - Install Vim Plugins
@@ -44,12 +44,12 @@ All the vim plugins is managed by [Vundle][1], so you need to install them for t
 
 ## Step 4 - Special Plugin
 For who also install the [YouCompleteMe][2], to complete this plugin's installation step:
-* go to its folder `$FENV_HOME/vim/YouCompleteMe`
+* go to its folder `$TS_ENV_HOME/vim/YouCompleteMe`
 * Run `./install.sh --clang-completer`
 
 ### Using System Clang
 If you are using Mac, use system clang will be a better solution<br>
-* go to its folder `$FENV_HOME/vim/YouCompleteMe`
+* go to its folder `$TS_ENV_HOME/vim/YouCompleteMe`
 * Run `./install.sh --clang-completer --system-libclang`
 
 **NOTE:** If you are a Mac User, please download the lastest [MacVim][3].
