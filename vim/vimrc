@@ -11,7 +11,7 @@ call vundle#begin("$TS_ENV_HOME/vim/bundle")
 "Plugin 'gmarik/Vundle.vim'
 
 source $TS_ENV_HOME/vim/vimrcs/nerdtree.vimrc
-source $TS_ENV_HOME/vim/vimrcs/powerline.vimrc
+source $TS_ENV_HOME/vim/vimrcs/airline.vimrc
 source $TS_ENV_HOME/vim/vimrcs/taglist.vimrc
 source $TS_ENV_HOME/vim/vimrcs/cscope.vimrc
 source $TS_ENV_HOME/vim/vimrcs/youcompleteme.vimrc
