@@ -19,6 +19,10 @@ source $TS_ENV_HOME/vim/vimrcs/easymotion.vimrc
 source $TS_ENV_HOME/vim/vimrcs/ctrlp.vimrc
 source $TS_ENV_HOME/vim/vimrcs/clang_format.vimrc
 source $TS_ENV_HOME/vim/vimrcs/listtoggle.vimrc
+source $TS_ENV_HOME/vim/vimrcs/indentLine.vimrc
+source $TS_ENV_HOME/vim/vimrcs/syntastic.vimrc
+source $TS_ENV_HOME/vim/vimrcs/molokai.vimrc
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
