@@ -25,3 +25,5 @@ nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
 
 " For enable autocomplete for Java
 let g:EclimCompletionMethod = 'omnifunc'
+" When this option is set to 1, YCM will auto-close the preview window after the user leaves insert mode
+let g:ycm_autoclose_preview_window_after_insertion = 1
