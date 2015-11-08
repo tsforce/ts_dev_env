@@ -4,6 +4,8 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+colorscheme molokai
+
 " Highlight trailing whitespace and lines longer than 80 columns.
 highlight LongLine ctermbg=DarkYellow guibg=DarkYellow
 highlight WhitespaceEOL ctermbg=DarkYellow guibg=DarkYellow
