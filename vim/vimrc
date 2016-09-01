@@ -23,6 +23,7 @@ source $TS_ENV_HOME/vim/vimrcs/indentLine.vimrc
 source $TS_ENV_HOME/vim/vimrcs/syntastic.vimrc
 source $TS_ENV_HOME/vim/vimrcs/molokai.vimrc
 source $TS_ENV_HOME/vim/vimrcs/rainbow_parentheses.vimrc
+source $TS_ENV_HOME/vim/vimrcs/pig.vimrc
 
 
 " All of your Plugins must be added before the following line
