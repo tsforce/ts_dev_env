@@ -46,6 +46,7 @@ All the vim plugins is managed by [Vundle][1], so you need to install them for t
 For who also install the [YouCompleteMe][2], to complete this plugin's installation step:
 * go to its folder `$TS_ENV_HOME/vim/YouCompleteMe`
 * Run `./install.sh --clang-completer`
+* CXX="/home/tsforce/gcc-8.2.0/bin/g++"   ./install.py  --clang-completer  --go-completer 
 
 ### Using System Clang
 If you are using Mac, use system clang will be a better solution<br>
